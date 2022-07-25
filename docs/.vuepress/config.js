@@ -1,14 +1,16 @@
 module.exports = {
-  title: "Antd组件封装业务文档",
+  title: "前端学习,从入门到起飞",
   descriptions: "Antd 4.x 封装的业务型实用组件",
+  base:"/blogs",
   theme: "reco", // 主题
   locales: {
     "/": {
       lang: "zh-CN",
     },
   },
-  subSidebar: "auto",
+
   themeConfig: {
+    subSidebar: "auto",
     nav: [
       { text: "首页", link: "/" },
       {
@@ -28,16 +30,16 @@ module.exports = {
     sidebar: [
       {
         title: "基础篇",
-        path: "/",
+        path: "/base",
         collapsable: false, // 不折叠
         children: [
           {
             title: "基础语法",
-            path: "/",
+            path: "/handbook/basejs",
           },
           {
-            title: "试题",
-            path: "/",
+            title: "面试题",
+            path: "/handbook/exam",
           },
         ],
       },

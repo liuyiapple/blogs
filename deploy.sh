@@ -14,5 +14,5 @@ git add -A
 git commit -m 'main'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:liuyiapple/blogs.git main:gh-pages
+git push -f git@github.com:liuyiapple/blogs.git master:main
 cd -
